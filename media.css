@@ -1,0 +1,894 @@
+@media (max-width: 1000px) {
+    
+    .navbar{
+        padding: 0.2rem 1rem;
+    }
+
+
+    .contact-button{
+        display: none;
+    }
+    
+    .hamburger {
+      display: flex;
+      padding-right: 0.5rem;
+      
+    }
+    .logo{
+      font-size: 1rem;
+  
+    }
+    .top_img{
+      width: 3rem;
+      
+    }
+
+   
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      border-radius: 8px;
+      gap: 1rem;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+    
+  }
+
+  @media (min-width: 900px){
+
+    /*--================================= nav =================================--*/
+    
+    .nav-links a{
+      font-size: 1rem;
+    }
+    .contact-button a{
+      font-size: 0.9rem;
+    }
+    .contact-button{
+      padding: 0.5rem 1rem;
+    }
+  }
+
+
+
+  
+
+
+
+   /*--================================= hero =================================--*/
+
+   @media (min-width: 450px) {
+    .services_grid{
+      margin: 0 10vw;
+    }
+  }
+
+   @media (min-width: 600px) {
+     html{
+      font-size: 20px;
+     }
+   }
+   @media (min-width: 750px) {
+     html{
+      font-size: 25px;
+     }
+   }
+
+   @media (min-width: 1024px) {
+
+    .navbar{
+      padding: 0.1rem 1rem;
+  
+    }
+    .logo h2{
+      text-transform: uppercase;
+      font-size: .8rem;
+      font-weight: bold;
+      margin-top: 0.5rem;
+  }
+  
+  
+
+   
+   footer{
+     justify-content: center;
+   }
+   .footer_wrapper{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 2rem auto;
+     overflow: hidden;
+     justify-content: center;
+     gap: 7vw;
+     min-width: 100%;
+ }
+ .lists_wrapper{
+   display: flex;
+   flex-direction: row;
+   gap: 10vw;
+   align-items: center;
+}
+.footer_image img{
+ width: 4rem;
+}
+
+.footer_image h3{
+ font-size: 1rem;
+ 
+}
+.footer_image p{
+ font-size: .6rem;
+ 
+}
+
+h6{
+ font-size: 1.3rem;
+ text-transform: capitalize;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: 500;
+ 
+}
+
+footer ul span{
+ font-size: .9rem;
+ font-weight: 400;
+}
+
+footer ul li{
+ font-size: .6rem;
+ font-weight: 300;
+
+}
+
+.second_list li a{
+ font-size: 1rem;
+ font-weight: 300;
+}
+.third_list li a{
+ font-size: 1rem;
+ font-weight: 300;
+}
+.first_list ul{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+    .values{
+      background-color: var(--white);
+      height: fit-content;
+  }
+  
+  .values .wrapper{
+      display: flex;
+      flex-direction: column;
+      
+      margin: 5rem 0rem;
+      gap: 3rem;
+      
+  }
+  
+  .first{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      justify-content: space-between;
+  }
+  
+  .first .image{
+      width: 20rem;
+      height: 20rem;
+      border-radius: 1rem;
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .first .image img{
+      width: 40rem;
+      position: absolute;
+      right: 0;
+  }
+  
+  .first .titles{
+      width: 20rem;
+      height: 20rem;
+      background-color: var(--gray);
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 2rem;
+  }
+  
+  #tk{
+    height: 20rem;
+}
+  .first h1{
+      font-size: 2rem;
+      
+  }
+  
+  .first p{
+      font-size: 0.8rem;
+   
+      
+  }
+  
+  #values_p{
+      font-size: 1rem;
+  }
+  
+
+
+  #second .image img{
+    display: block;
+    position: absolute;
+    right: -9rem;
+    
+    
+  }
+
+
+
+
+
+  #second{
+      flex-direction: row-reverse;
+  }
+
+  .titles img{
+    width: 3rem;
+  }
+
+  #values_p {
+    font-size: .6rem;
+    font-weight: 400;
+}
+#values_p b{
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+
+
+
+    
+    
+    .hero_wrapper{
+      flex-direction: row;
+    }
+    .hero_wrapper{
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  .hero_titles{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      text-align: start;
+      
+  }
+
+
+  .logo_contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo_contener p{
+    font-size: 0.49rem;
+  }
+
+  .logo_contener img{
+    width: 2.5rem;
+  }
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .services_grid{
+      margin: 0 10vw;
+    }
+    html{
+     font-size: 25px;
+    }
+
+  #item1{
+      background-color: var(--gray);
+  }
+  #item2{
+      background-color: var(--white);
+  }
+  #item3{
+      background-color: var(--gray);
+  }
+  #item4{
+      background-color: var(--white);
+  }
+  #item5{
+      background-color: var(--gray);
+  }
+  #item6{
+      background-color: var(--white);
+  }
+  #item7{
+      background-color: var(--gray);
+  }
+  #item8{
+      background-color: var(--white);
+  }
+  #item9{
+      background-color: var(--gray);
+  }
+  #item10{
+      background-color: var(--white);
+  }
+  #item11{
+      background-color: var(--gray);
+  }
+  #item12{
+      background-color: var(--white);
+  }
+
+  }
+
+
+  @media (min-width: 1200px) {
+    .services_grid{
+      margin: 0 15vw;
+      
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+  }
+  @media (min-width: 1400px) {
+    .services_grid{
+      margin: 0 15vw;
+    }
+
+   
+
+
+
+
+
+    footer{
+      justify-content: center;
+    }
+    .footer_wrapper{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 2rem auto;
+      overflow: hidden;
+      justify-content: center;
+      gap: 7vw;
+      min-width: 100%;
+  }
+  .lists_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    align-items: center;
+}
+.footer_image img{
+  width: 6rem;
+}
+
+.footer_image h3{
+  font-size: 1.3rem;
+  
+}
+.footer_image p{
+  font-size: .7rem;
+  
+}
+
+h6{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  
+}
+
+footer ul span{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+footer ul li{
+  font-size: .7rem;
+  font-weight: 300;
+ 
+ }
+
+ .second_list li a{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.third_list li a{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.first_list ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .values{
+      background-color: var(--white);
+      height: fit-content;
+  }
+  
+  .values .wrapper{
+      display: flex;
+      flex-direction: column;
+      
+      margin: 5rem 0rem;
+      gap: 3rem;
+      
+  }
+  
+  .first{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      justify-content: space-between;
+  }
+  
+  .first .image{
+      width: 20rem;
+      height: 20rem;
+      border-radius: 1rem;
+      overflow: hidden;
+      position: relative;
+  }
+  
+  .first .image img{
+      width: 40rem;
+      position: absolute;
+      right: 0;
+  }
+  
+  .first .titles{
+      width: 20rem;
+      height: 20rem;
+      background-color: var(--gray);
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 2rem;
+  }
+  
+  #tk{
+    height: 20rem;
+}
+  .first h1{
+      font-size: 2rem;
+      
+  }
+  
+  .first p{
+      font-size: 0.8rem;
+   
+      
+  }
+  
+  #values_p{
+      font-size: 1rem;
+  }
+  
+
+
+  #second .image img{
+    display: block;
+    position: absolute;
+    right: -9rem;
+    
+    
+  }
+
+
+
+
+
+  #second{
+      flex-direction: row-reverse;
+  }
+
+  .titles img{
+    width: 3rem;
+  }
+
+  #values_p {
+    font-size: .6rem;
+    font-weight: 400;
+}
+#values_p b{
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+
+
+
+    html{
+      font-size: 30px;
+    }
+
+    .hero_wrapper{
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      height: 100vh;
+  }
+  
+  .hero_titles{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      text-align: start;
+      gap: 1rem;
+  }
+
+
+  .logo_contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo_contener h2{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .logo_contener p{
+    font-size: 0.6rem;
+  }
+
+  .logo_contener img{
+    width: 2.5rem;
+  }
+  }
+
+
+  @media (min-width: 1700px) {
+    .services_grid{
+      margin: 0 25vw;
+    }
+    footer{
+      justify-content: center;
+    }
+    .footer_wrapper{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 2rem auto;
+      overflow: hidden;
+      justify-content: center;
+      gap: 7vw;
+      min-width: 100%;
+  }
+  .lists_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    align-items: center;
+}
+.footer_image img{
+  width: 6rem;
+}
+
+.footer_image h3{
+  font-size: 1.3rem;
+  
+}
+.footer_image p{
+  font-size: .7rem;
+  
+}
+
+h6{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  
+}
+
+footer ul span{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+footer ul li{
+  font-size: .7rem;
+  font-weight: 300;
+ 
+ }
+
+ .second_list li a{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.third_list li a{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.first_list ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+
+
+  }
+
+
+
+  @media (min-width: 1700px){
+
+
+
+
+
+
+
+
+
+    .work{
+      height: 100vh;
+    }
+    
+    #head{
+      font-size: 3rem;
+    }
+    .hero_titles{
+      gap: 2rem;
+      margin-top: 4rem;
+
+  }
+  
+  .hero_titles h1{
+      font-size: 2.3rem;
+      font-weight: 700;
+  }
+  .hero_titles span{
+      font-weight: 700;
+  }
+  
+  .line{
+      height: 0.2rem;
+      width: 2rem;
+  }
+  
+  .hero_titles h2{
+      font-size: .8rem;
+      font-weight: 400;
+  }
+  
+  .hero_button{
+      margin-top: 0.5rem;
+  }
+  
+  .hero_titles p a{
+      
+      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      
+  }
+  .hero_titles svg{
+      width: 0.9rem;
+  }
+  
+  .hero_image{
+      text-align: center;
+  }
+  
+  .hero_image img{
+      width: 20rem;
+  }
+  
+  .logo_title h1{
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+  }
+  .logo_title p{
+      font-size: 1rem;
+      font-weight: 300;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+  .values{
+    background-color: var(--white);
+    height: fit-content;
+}
+
+.values .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0rem;
+    gap: 3rem;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.first .image{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.first .image img{
+    width: 60rem;
+    position: absolute;
+    right: 0;
+}
+
+.first .titles{
+    width: 30rem;
+    height: 30rem;
+    background-color: var(--gray);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+}
+
+#tk{
+  height: 30rem;
+}
+.first h1{
+    font-size: 3rem;
+    
+}
+
+.first p{
+    font-size: 1.3rem;
+ 
+    
+}
+
+#values_p{
+    font-size: 1rem;
+}
+
+
+
+#second .image img{
+  display: block;
+  position: absolute;
+  right: -9rem;
+}
+  
+  
+
+  .titles img{
+    width: 4rem;
+  }
+
+  #values_p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    
+}
+#values_p b{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.wws_titles ul li{
+    line-height: 1.6rem;
+  }
+
+  }
