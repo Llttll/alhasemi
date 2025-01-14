@@ -97,7 +97,11 @@
       margin-top: 0.5rem;
   }
   
-  
+  .wws_titles #head{
+      font-size: 1.5rem;
+    font-weight: 700;
+   
+    }
 
    
    footer{
