@@ -465,6 +465,12 @@ li a:hover::after{
     margin: 0 1rem;
 }
 
+.wws_titles #head{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
 .wws_titles p {
     font-size: 1.1rem;
     font-weight: 400;
